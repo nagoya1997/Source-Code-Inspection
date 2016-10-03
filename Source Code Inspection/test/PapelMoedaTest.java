@@ -49,4 +49,10 @@ public class PapelMoedaTest {
         assertEquals(pm.getValor(),5);
     }
     
+    @Test
+    public void getQuantidadeTest(){
+        PapelMoeda pm = new PapelMoeda(10,11);
+        assertEquals(pm.getValor(),10);
+    }
+    
 }
