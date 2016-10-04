@@ -4,5 +4,5 @@ script: "./build.sh"
 
  addons:
     apt:
-    packages:
+    packages: org.junit.Test;
     - oracle-java8-installer
